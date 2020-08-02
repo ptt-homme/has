@@ -130,7 +130,7 @@ __detect(){
 
     # Container runtimes
     docker|podman)          __dynamic_detect--version "${command}" ;;
-    
+
     ## Database CLI
     psql)                   __dynamic_detect--version "${command}" ;;
 
@@ -154,6 +154,11 @@ __detect(){
     heroku)                 __dynamic_detect--version "${command}" ;;
     netlify)                __dynamic_detect--version "${command}" ;;
     netlifyctl)             __dynamic_detect-arg_version "${command}" ;;
+
+    ## Hashicorp Tools
+    terraform|packer)       __dynamic_detect--version "${command}" ;;
+    vagrant|consul)         __dynamic_detect--version "${command}" ;;
+    nomad)                  __dynamic_detect--version "${command}" ;;
 
     # commands that need -v flag
     unzip)                  __dynamic_detect-v "${command}" ;;
