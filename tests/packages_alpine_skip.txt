@@ -53,3 +53,13 @@ php5
 #  https://theunarchiver.com/command-line
 #  https://github.com/ashang/unar
 unar
+
+# problem with brew
+brew
+
+# added to has in commit add hashicorp tools (99595431ffc720daa3c6492817cfcbc029c831f2)
+consul
+packer
+nomad
+terraform
+vagrant

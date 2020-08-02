@@ -14,3 +14,12 @@ groovy
 # tools below have not be added to the ubuntu test container image.
 # --------------------------------------------------------------------------
 
+# problem with brew
+brew
+
+# added to has in commit add hashicorp tools (99595431ffc720daa3c6492817cfcbc029c831f2)
+consul
+packer
+nomad
+terraform
+vagrant
